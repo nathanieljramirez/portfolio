@@ -13,7 +13,7 @@ createRoot(document.getElementById("root")).render(
       out my work!
     </p>
     <h2>Projects</h2>
-    <div>
+    <div className="projects">
       <a href="https://github.com/vivaejs">Vivae.js</a>
       <a href="https://github.com/nathanieljramirez/tornado">Tornado</a>
       <a href="https://github.com/mcserverkit">MCServerKit</a>
