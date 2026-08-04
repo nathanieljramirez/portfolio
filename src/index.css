@@ -9,6 +9,7 @@ button,
 input,
 textarea {
   font-family: var(--lato);
+  display: block;
 }
 
 button {
