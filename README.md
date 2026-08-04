@@ -13,6 +13,15 @@ This is my portfolio website made in JavaScript using Vite and React with a form
 
 ## Development
 
+Install Dependencies
+```bash
+npm i
+```
+
+Run development server
+
 ```bash
 npm run dev
 ```
+
+And open http://localhost:5173 in your browser
