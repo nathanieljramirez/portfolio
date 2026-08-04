@@ -23,7 +23,7 @@ createRoot(document.getElementById("root")).render(
     <h2>Contact</h2>
     <form
       action="https://send.pageclip.co/YcbPEtibmagtLxHKKVIs1zGMd4aOBnxm"
-      class="pageclip-form"
+      className="pageclip-form"
       method="post"
     >
       <input type="text" name="name" id="name" placeholder="Name" required />
@@ -40,7 +40,9 @@ createRoot(document.getElementById("root")).render(
         placeholder="Message"
         required
       ></textarea>
-      <input type="submit" value="Submit" />
+      <button type="submit" className="pageclip-form__submit">
+        <span>Submit</span>
+      </button>
     </form>
   </StrictMode>,
 );
