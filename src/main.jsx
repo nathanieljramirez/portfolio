@@ -27,10 +27,16 @@ createRoot(document.getElementById("root")).render(
       method="post"
     >
       <input type="text" name="name" id="name" placeholder="Name" required />
-      <input type="text" name="email" id="email" placeholder="Email" required />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      />
       <textarea
-        id="subject"
-        name="subject"
+        id="message"
+        name="message"
         placeholder="Message"
         required
       ></textarea>
