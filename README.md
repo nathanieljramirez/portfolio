@@ -1,13 +1,11 @@
 # Portfolio
 
-This is my portfolio website made in Vite and React, go check it out!
+This is my portfolio website made in JavaScript using Vite and React with a form in case you want to contact me, go check it out! https://portfolio-dtz.pages.dev/
 
 ## Features
 
 - Light and Dark mode depending on preference
 - Contact section made with [Pageclip](https://pageclip.co/)
-
-https://portfolio-dtz.pages.dev/
 
 ## Quick Look
 
