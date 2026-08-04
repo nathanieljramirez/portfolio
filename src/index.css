@@ -10,3 +10,17 @@ input,
 textarea {
   font-family: var(--lato);
 }
+
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+  transition: ease-out 0.2s;
+  &:hover {
+    background: #efefef;
+  }
+  &:active {
+    background: #ddd;
+  }
+}
