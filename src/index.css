@@ -5,6 +5,11 @@
   font-family: var(--lato);
 }
 
+#root {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 button,
 input,
 textarea {
