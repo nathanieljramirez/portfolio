@@ -12,7 +12,8 @@ textarea {
   display: block;
 }
 
-button {
+button,
+input[type="submit"] {
   padding: 5px 10px;
   border-radius: 5px;
   background: #fff;
