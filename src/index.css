@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 :root {
+  color-scheme: light dark;
   --lato: "Lato", sans-serif;
   font-family: var(--lato);
 }
@@ -16,11 +17,11 @@ textarea {
   font-family: var(--lato);
   display: block;
   box-sizing: border-box;
-  border: 2px #ccc solid;
+  border: 2px light-dark(#ccc, #222) solid;
   margin-bottom: 2px;
   padding: 5px 10px;
   border-radius: 5px;
-  background: #fff;
+  background: light-dark(#fff, #000);
   transition: ease-out 0.2s;
 }
 
@@ -28,10 +29,10 @@ button,
 input[type="submit"] {
   cursor: pointer;
   &:hover {
-    background: #efefef;
+    background: light-dark(#efefef, #111);
   }
   &:active {
-    background: #ddd;
+    background: light-dark(#ddd, #222);
   }
 }
 
