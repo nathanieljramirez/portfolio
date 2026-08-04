@@ -15,15 +15,15 @@ input,
 textarea {
   font-family: var(--lato);
   display: block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #fff;
+  transition: ease-out 0.2s;
 }
 
 button,
 input[type="submit"] {
-  padding: 5px 10px;
-  border-radius: 5px;
-  background: #fff;
   cursor: pointer;
-  transition: ease-out 0.2s;
   &:hover {
     background: #efefef;
   }
