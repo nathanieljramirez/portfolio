@@ -42,3 +42,11 @@ form {
     width: 300px;
   }
 }
+
+.projects {
+  display: inline-flex;
+  gap: 5px;
+  a {
+    color: dodgerblue;
+  }
+}
