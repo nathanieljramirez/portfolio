@@ -21,7 +21,11 @@ createRoot(document.getElementById("root")).render(
     <h2>Sponsored By</h2>
     <p>No sponsors yet</p>
     <h2>Contact</h2>
-    <form>
+    <form
+      action="https://send.pageclip.co/YcbPEtibmagtLxHKKVIs1zGMd4aOBnxm"
+      class="pageclip-form"
+      method="post"
+    >
       <input type="text" name="name" id="name" placeholder="Name" required />
       <input type="text" name="email" id="email" placeholder="Email" required />
       <textarea
